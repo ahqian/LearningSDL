@@ -70,7 +70,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>C:\DevelopmentLibraries\SDL2-2.0.3\include;C:\DevelopmentLibraries\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\DevelopmentLibraries\SDL2-2.0.3\lib\x86;C:\DevelopmentLibraries\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\DevelopmentLibraries\RecompiledSDL;C:\DevelopmentLibraries\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
